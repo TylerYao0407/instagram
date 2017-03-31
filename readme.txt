@@ -10,6 +10,17 @@ instagram
 │
 ├─static <-静态文件
 └─templates <-页面模板
-base.html
-index.html
-login.html
+    └─base.html
+    └─index.html
+    └─login.html
+
+
+
+安装依赖库：
+    pip install Flask
+    pip install Flask-Script
+    pip install Flask-Login
+    pip install Flask-SQLAlchemy
+    pip install MySQL-python
+    pip install requests
+
